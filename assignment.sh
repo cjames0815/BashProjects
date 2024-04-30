@@ -46,4 +46,6 @@ get_total_cost () {
 
 # You must update this return statement so that
     # it returns the computed total cost.
-    return $total
+    return_something () {
+        return $total
+}
